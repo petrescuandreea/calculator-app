@@ -78,6 +78,7 @@ div.container-head > div > span {
 }
 
 .bg-equal-1 {
+    color: #fff;
     background-color: #d13e31;
     border-bottom: 4px solid #872923;
 }
@@ -144,7 +145,7 @@ div.container-head > div > span {
 }
 
 .bg-btn-3 {
-    color: #52515a;
+    color: #f9e538;
     background-color: #331b4d;
     border-bottom: 4px solid #782591;
 }
@@ -156,9 +157,9 @@ div.container-head > div > span {
 }
 
 .bg-equal-3 {
-    color: #004245;
-    background-color: #004245;
-    border-bottom: 4px solid #56faf1;
+    color: #044548;
+    background-color: #00decf;
+    border-bottom: 4px solid #71f8f4;
 }
 
 
@@ -236,7 +237,6 @@ div.container-head > div > span {
 }
 
 .btn-delete, .btn-equal {
-    color: white;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 8px;
@@ -245,6 +245,10 @@ div.container-head > div > span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-delete {
+    color: #fff;
 }
 
 .btn, .bg-btn-1, .bg-btn-2, .bg-btn-3 {

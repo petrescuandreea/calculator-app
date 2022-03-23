@@ -51,6 +51,3 @@ function toggleTheme(msBody, msContRes, msContOpr, msBtn, msBtnDel, msBtnEqual, 
     contHead.classList.add('container-head', msContHead);
 
 }
-
-
-// .classList.item(0)
