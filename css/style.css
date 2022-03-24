@@ -184,6 +184,16 @@ div.container-head > div > span {
     flex-wrap: wrap;
 }
 
+button {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .reset-equal {
     display: flex;
     justify-content: space-between;
@@ -213,15 +223,15 @@ div.container-head > div > span {
     border-bottom: 4px solid #414f71;
 } */
 
-#large-del, #large-equal {
+#reset-operator, #equal-operator {
     width: 47%;
 }
 
-#large-equal {
+#equal-operator {
     font-size: 25px;
 }
 
-#large-del {
+#reset-operator {
     font-size: 22px;
 }
 
