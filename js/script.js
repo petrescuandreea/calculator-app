@@ -47,15 +47,12 @@ contRes.innerHTML = result;
 // click numbers handler
 buttonsNumbers.forEach(number => {
     number.addEventListener('click', function(){
-        // console.log(parseInt(number.value));
         if (firstClick === false) {
             contRes.innerHTML = '';
             firstClick = true;
         }
 
         num += number.value;
-        // numbersClicked.push(parseInt(num));
-        // console.log(numbersClicked);
         console.log(num);
 
         // console.log(numbersClicked.length);
@@ -77,7 +74,7 @@ reset.addEventListener('click', function() {
 });
 
 // plus 
-let sumNumbers = 0;
+// let sumNumbers = 0;
 plus.addEventListener('click', function() {
     contRes.innerHTML += '+';
 
@@ -87,6 +84,22 @@ plus.addEventListener('click', function() {
     numbersClicked.push('+');
     console.log(numbersClicked);
     // numbersClicked = [];
+    num = '';
+
+})
+
+// minus 
+let difNumbers = 0;
+minus.addEventListener('click', function() {
+    contRes.innerHTML += '-';
+
+    numbersClicked.push(parseInt(num));
+    difNumbers = parseInt(numbersClicked);
+    difNumbers -= parseInt(numbersClicked);
+    console.log(difNumbers);
+    numbersClicked.push('-');
+    console.log(numbersClicked);
+    // // numbersClicked = [];
     num = '';
 
 })
